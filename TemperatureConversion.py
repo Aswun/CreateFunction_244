@@ -1,6 +1,7 @@
 def KonversiSuhu():
     temperature = float(input("Masukan suhu: "))
     unit = input("Masukkan unit ('C' atau 'F') : ")
+    
     if unit.upper() == 'C':
         fahrenheit = (temperature * 9/5) + 32
         return f"{temperature}°C = {fahrenheit}°F"
